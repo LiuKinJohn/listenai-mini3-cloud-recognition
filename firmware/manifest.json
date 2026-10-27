@@ -1,0 +1,17 @@
+{
+  "board": "arcs_mini3",
+  "version": "3.0.3",
+  "snapshot_date": "2026-10-27",
+  "upstream_commit": "23fca91e13dbd0f2c81eb2f69a6b337953021637",
+  "file": "arcs-mini3-public-app.bin",
+  "bytes": 3443092,
+  "sha256": "de64ac6fa901f70093c4676d83802701856c9508c05c43812a880190a608fb8e",
+  "configuration_changes_from_tested_build": [
+    "CONFIG_CLOUD_PRODUCT_ID_DEFAULT",
+    "CONFIG_CLOUD_SECRET_ID_DEFAULT"
+  ],
+  "build_validation": "success",
+  "device_validation": "not flashed; original configured build was tested",
+  "flash_partition": "app",
+  "flash_offset": "0x600000"
+}

@@ -1,0 +1,21 @@
+listenai_library_named(app-ui)
+listenai_library_sources(
+    nano_shell.c
+    nano_icons.c
+    nano_home.c
+    nano_status_bar.c
+    nano_digits.c
+    nano_fx.c
+    nano_cam.c
+    nano_list.c
+    nano_settings.c
+    nano_view_info.c
+    nano_view_cloud.c
+    nano_view_camera.c
+    nano_view_playback.c
+    nano_view_settings.c
+)
+
+listenai_include_directories(
+    ${CMAKE_CURRENT_SOURCE_DIR}
+)
